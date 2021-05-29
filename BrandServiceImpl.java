@@ -103,4 +103,7 @@ public class BrandServiceImpl implements BrandService {
 	public List<Map> selectOptionList() {
 		return brandMapper.selectOptionList();
 	}
+	
+	//添加address属性
+	private String address;
 }
