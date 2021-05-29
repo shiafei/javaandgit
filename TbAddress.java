@@ -27,6 +27,9 @@ public class TbAddress implements Serializable {
     private Date createDate;
 
     private String alias;
+    
+    //增加属性
+    private String name;
 
     private static final long serialVersionUID = 1L;
 
