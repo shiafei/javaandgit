@@ -10,6 +10,9 @@ public class TbAreas implements Serializable {
     private String area;
 
     private String cityid;
+    
+    //增加身份证
+    private String idCard;
 
     private static final long serialVersionUID = 1L;
 
